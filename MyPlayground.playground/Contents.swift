@@ -121,14 +121,33 @@ let result = numbers.map { (num) -> Int in
 }
 result
 
-class Shape {
-    var numberOfSides = 0
-    func simpleDescription() -> String {
-        return "shape with \(numberOfSides) sides"
+let filter = numbers.filter { (item) -> Bool in
+    if  (item < 2) {
+        return true
     }
+    return false
+}
+filter
+
+let revert = numbers.sorted { (item1, item2) -> Bool in
+    return item1 > item2
+}
+print(revert)
+
+class Shape {
+    var score = 0.0
+    var result: Double {
+        get {
+            return score * 1.6;
+        }
+    }
+    
+    init(item: Dictionary<String, Double>) {
+        score = item["score"]!
+    }
+    
 }
 
-var shape = Shape()
-shape.numberOfSides = 7
-var shapeDescription = shape.simpleDescription()
+let shape = Shape(item: ["score" : 60.0])
 
+print(shape.result);
