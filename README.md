@@ -11,7 +11,12 @@ https://mikimoto.gitbooks.io/the-swift-programming-language-zh-tw/content/book/1
 - Stanford 課程
 https://itunes.apple.com/us/podcast/developing-ios-11-apps-with-swift/id1315130780?mt=2
 
-## Practice for swift programming
-
-[practice01](./practice01.playground)
+## Developing iOS Apps with Swift by Stanford
+- video: https://www.youtube.com/channel/UC4TopsgjMJ0p-DlgJ6J4dzw
+- slides: https://drive.google.com/drive/folders/1-TWZDChwwzkiGzt78QlPZDzN-j82JfR6
  
+## Practice for swift programming
+### Swift Programming Language
+[practice01](./practice01.playground)
+
+
